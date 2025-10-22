@@ -1,0 +1,20 @@
+--1
+SELECT DEPARTMENT_NAME "학과 명", 
+CATEGORY "계열"
+FROM TB_DEPARTMENT;
+ 
+--2
+SELECT DEPARTMENT_NAME,CAPACITY
+FROM TB_DEPARTMENT;
+
+--3
+
+-- 1. 국문학과 "학과 코드" 학과 테이블 조회
+-- 2. 국문학과 다니고, 휴학중인 여학생 찾기
+-- 3. "한수현" 찾기
+
+SELECT STUDENT_NAME
+FROM STUDENT TB_STUDENT
+WHERE 
+
+--4
